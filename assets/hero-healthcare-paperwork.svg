@@ -1,0 +1,69 @@
+<svg width="1800" height="1120" viewBox="0 0 1800 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1800" height="1120" fill="#F4F8FB"/>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="320" x2="1800" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.42" stop-color="#F6FAFC" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#DCE9F0"/>
+    </linearGradient>
+    <linearGradient id="fadeLeft" x1="0" y1="0" x2="930" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.98"/>
+      <stop offset="0.58" stop-color="#FFFFFF" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="920" y1="330" x2="1420" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDE8EE"/>
+    </linearGradient>
+    <filter id="softShadow" x="-40" y="-40" width="1880" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="36" flood-color="#28445B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1120" fill="url(#wash)"/>
+  <g opacity="0.34">
+    <rect x="1190" y="80" width="390" height="610" rx="14" fill="#C9D8E0"/>
+    <rect x="1230" y="122" width="310" height="82" rx="8" fill="#EEF4F7"/>
+    <rect x="1230" y="242" width="310" height="82" rx="8" fill="#EEF4F7"/>
+    <rect x="1230" y="362" width="310" height="82" rx="8" fill="#EEF4F7"/>
+    <path d="M1365 250V520" stroke="#A8BAC5" stroke-width="7"/>
+    <circle cx="1365" cy="248" r="58" stroke="#A8BAC5" stroke-width="9"/>
+  </g>
+  <g opacity="0.48">
+    <rect x="1048" y="156" width="198" height="148" rx="18" fill="#B9C8D0"/>
+    <rect x="1080" y="182" width="134" height="82" rx="8" fill="#E8F0F4"/>
+    <circle cx="1147" cy="292" r="16" fill="#8CA3B1"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="1094" cy="1012" rx="560" ry="68" fill="#C9D5DC" opacity="0.32"/>
+    <path d="M980 390C860 456 800 636 785 946H1418C1404 644 1344 468 1212 390C1144 350 1040 350 980 390Z" fill="url(#coat)"/>
+    <path d="M926 532C880 640 854 777 844 946H1004L1054 548L926 532Z" fill="#EFF5F8"/>
+    <path d="M1262 532C1310 640 1336 777 1348 946H1188L1136 548L1262 532Z" fill="#EAF2F6"/>
+    <path d="M1010 514H1188L1130 946H1064L1010 514Z" fill="#CBD9E2" opacity="0.46"/>
+    <circle cx="1096" cy="306" r="146" fill="#D6C0AB"/>
+    <path d="M944 286C965 172 1052 112 1158 148C1236 174 1278 244 1262 340C1230 286 1192 252 1122 252C1040 252 1000 282 944 286Z" fill="#A9B0B2"/>
+    <path d="M1002 342C1006 402 1048 446 1096 446C1146 446 1190 402 1194 342C1160 376 1034 374 1002 342Z" fill="#CBAE99" opacity="0.54"/>
+    <path d="M1094 328C1058 332 1028 324 1004 306C986 292 1004 268 1028 278C1064 292 1114 292 1158 276C1182 268 1204 292 1184 310C1152 338 1122 324 1094 328Z" fill="#8D969C" opacity="0.42"/>
+    <path d="M938 332C912 328 890 348 896 376C902 410 930 424 950 404" stroke="#D7C0AA" stroke-width="24" stroke-linecap="round"/>
+    <path d="M1260 332C1288 328 1310 348 1304 376C1298 410 1268 424 1248 404" stroke="#D7C0AA" stroke-width="24" stroke-linecap="round"/>
+    <path d="M928 390C850 392 790 450 760 530" stroke="#D6C0AB" stroke-width="44" stroke-linecap="round"/>
+    <path d="M746 528C724 586 752 640 812 654" stroke="#D6C0AB" stroke-width="42" stroke-linecap="round"/>
+    <path d="M1280 456C1340 442 1384 414 1410 374" stroke="#D6C0AB" stroke-width="44" stroke-linecap="round"/>
+    <path d="M1398 372C1436 350 1478 334 1530 318" stroke="#D6C0AB" stroke-width="36" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1395 250) rotate(12)">
+    <rect width="360" height="250" rx="24" fill="#1C3850"/>
+    <rect x="22" y="24" width="316" height="202" rx="10" fill="#DCECF4"/>
+    <rect x="45" y="48" width="110" height="150" rx="6" fill="#F7FBFD"/>
+    <rect x="178" y="48" width="130" height="72" rx="6" fill="#F7FBFD"/>
+    <path d="M192 154C218 124 240 186 264 142C284 106 298 154 316 132" stroke="#5A8DAE" stroke-width="6" fill="none"/>
+    <path d="M58 78H136M58 108H126M58 138H146M58 168H112" stroke="#9CB8C8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1265 682) rotate(15)">
+    <rect width="470" height="245" rx="18" fill="#163047"/>
+    <rect x="24" y="22" width="422" height="200" rx="8" fill="#12263A"/>
+    <path d="M44 152C104 98 152 84 214 112C280 142 330 96 426 72" stroke="#BFE4FA" stroke-width="11" fill="none" opacity="0.88"/>
+    <path d="M44 186C132 122 208 202 300 146C346 118 382 116 426 132" stroke="#7FC5EC" stroke-width="8" fill="none" opacity="0.58"/>
+    <text x="42" y="54" font-family="Inter, Arial" font-size="18" fill="#E6F4FA">A. Miller · Chest Series</text>
+  </g>
+  <rect width="980" height="1120" fill="url(#fadeLeft)"/>
+</svg>

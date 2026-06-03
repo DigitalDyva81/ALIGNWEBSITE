@@ -1,0 +1,66 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="980" fill="#0F1621"/>
+  <rect width="1600" height="980" fill="url(#sky)"/>
+  <g opacity="0.9" filter="url(#blurCloud)">
+    <ellipse cx="384" cy="148" rx="280" ry="104" fill="#7B8590"/>
+    <ellipse cx="742" cy="118" rx="330" ry="120" fill="#6B7580"/>
+    <ellipse cx="1184" cy="154" rx="324" ry="128" fill="#78828D"/>
+  </g>
+  <path d="M-52 794C118 700 274 654 424 670C558 684 646 754 768 768C950 790 1102 704 1246 718C1398 732 1508 808 1664 826V980H-52V794Z" fill="url(#ribbon)"/>
+  <path d="M-88 850C66 770 182 752 300 772C430 794 530 866 642 860C790 852 876 734 1034 734C1182 734 1260 842 1432 846C1528 848 1600 816 1664 790V980H-88V850Z" fill="url(#ribbon2)" opacity="0.88"/>
+  <g opacity="0.25">
+    <path d="M0 0H1600V980H0V0ZM72 72V908H1528V72H72Z" fill="#F4F2EE" fill-rule="evenodd"/>
+    <path d="M72 836H1528" stroke="#F4F2EE" stroke-width="3" stroke-dasharray="10 10"/>
+  </g>
+  <g transform="translate(1120 205)">
+    <circle cx="0" cy="0" r="232" stroke="#F3F2EC" stroke-width="72"/>
+    <path d="M0-232A232 232 0 0 1 167.9 -159.6" stroke="#D61C21" stroke-width="72" stroke-linecap="butt"/>
+    <path d="M167.9 159.6A232 232 0 0 1 0 232" stroke="#D61C21" stroke-width="72" stroke-linecap="butt"/>
+    <path d="M-167.9 159.6A232 232 0 0 1 -232 0" stroke="#D61C21" stroke-width="72" stroke-linecap="butt"/>
+    <path d="M22-368L12 86" stroke="#EAE7DF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="145" fill="#27303B" opacity="0.92"/>
+  </g>
+  <g opacity="0.95">
+    <path d="M1002 458C1118 416 1216 416 1328 458" stroke="#F4F2EE" stroke-width="12" stroke-linecap="round"/>
+    <text x="1006" y="518" fill="#F4F2EE" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="700" transform="rotate(-49 1006 518)">ADMINISTRATIVE RELIEF | WELLBEING | PHYSICIAN SUPPORT</text>
+  </g>
+  <g opacity="0.9">
+    <g transform="translate(1024 658)">
+      <path d="M0 -52L15 -16H54L24 6L35 44L0 22L-35 44L-24 6L-54 -16H-15L0 -52Z" fill="#B6241F"/>
+      <path d="M0 -30C8 -10 16 10 0 28C-16 10 -8 -10 0 -30Z" fill="#F7F1E8"/>
+      <path d="M-10 8C0 2 10 2 20 8" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 -14V22" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(1400 604) scale(0.9)">
+      <path d="M0 -52L15 -16H54L24 6L35 44L0 22L-35 44L-24 6L-54 -16H-15L0 -52Z" fill="#B6241F"/>
+      <path d="M0 -30C8 -10 16 10 0 28C-16 10 -8 -10 0 -30Z" fill="#F7F1E8"/>
+      <path d="M-10 8C0 2 10 2 20 8" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 -14V22" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(1172 720) scale(0.45)">
+      <path d="M0 -52L15 -16H54L24 6L35 44L0 22L-35 44L-24 6L-54 -16H-15L0 -52Z" fill="#B6241F"/>
+      <path d="M0 -30C8 -10 16 10 0 28C-16 10 -8 -10 0 -30Z" fill="#F7F1E8"/>
+      <path d="M-10 8C0 2 10 2 20 8" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 -14V22" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="sky" x1="300" y1="0" x2="1350" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#505A65"/>
+      <stop offset="0.5" stop-color="#3B4651"/>
+      <stop offset="1" stop-color="#1C2430"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="248" y1="678" x2="1208" y2="964" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D82F27"/>
+      <stop offset="0.48" stop-color="#9B1419"/>
+      <stop offset="1" stop-color="#D83832"/>
+    </linearGradient>
+    <linearGradient id="ribbon2" x1="146" y1="748" x2="1518" y2="910" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8A0F12"/>
+      <stop offset="1" stop-color="#E04F43"/>
+    </linearGradient>
+    <filter id="blurCloud" x="-16" y="-76" width="1600" height="430" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+</svg>
