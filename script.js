@@ -60,7 +60,7 @@ const storyObserver = new IntersectionObserver(
 storySteps.forEach((step) => storyObserver.observe(step));
 
 if (!prefersReduced) {
-  const heroMedia = document.querySelector('.hero-media');
+  const heroMedia = document.querySelector('.hero-art');
   if (heroMedia) {
     document.addEventListener('mousemove', (e) => {
       const x = (e.clientX / window.innerWidth - 0.5) * 4;

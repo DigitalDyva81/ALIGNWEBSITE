@@ -21,44 +21,77 @@
     <div class="page-bg"></div>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#top" aria-label="Align eCare home">
-          <img src="assets/align-ecare-logo.svg" alt="Align eCare" />
+        <a class="brand brand-wordmark" href="#top" aria-label="Align eCare home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M32 4L39 20L56 16L48 31L60 40L43 43L44 60L32 50L20 60L21 43L4 40L16 31L8 16L25 20L32 4Z" />
+              <path d="M16 34H25L29 25L35 43L40 34H48" />
+            </svg>
+          </span>
+          <span>Align eCare</span>
         </a>
-        <a class="btn btn-small" href="#pilot-form">Request Pilot Info</a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="#problem">Problem</a>
+          <a href="#solution">Solution</a>
+          <a href="#transformation">Workflow</a>
+          <a href="#capacity">Impact</a>
+          <a href="#trust">Trust</a>
+          <a href="#about">About</a>
+        </nav>
+        <a class="btn btn-primary nav-cta" href="#pilot-form">Request Early Access</a>
       </div>
     </header>
 
     <main id="top">
-      <section class="hero section">
-        <div class="container hero-shell reveal">
-          <div class="hero-media" role="img" aria-label="Align eCare hero illustration showing red tape pressure and physician support">
-            <div class="hero-scrim"></div>
-            <div class="hero-frame"></div>
-            <div class="hero-copy hero-overlay-copy">
-              <p class="eyebrow">Canada-first clinical workflow capacity platform</p>
-              <h1>Choose patient care over paperwork.</h1>
-              <p class="lead">
-                Align eCare helps physicians and clinics reduce paperwork burden,
-                form friction, referral bottlenecks, and workflow drag so more time can
-                return to patient care.
-              </p>
-              <div class="hero-actions">
-                <a class="btn btn-primary" href="#pilot-form">Request Pilot Info</a>
-                <a class="btn btn-secondary" href="#pilot-form">Secure Early Access</a>
-              </div>
+      <section class="hero hero-reference">
+        <div class="hero-art" role="img" aria-label="Physician overwhelmed by administrative paperwork with clinical review materials nearby"></div>
+        <div class="container hero-reference-inner">
+          <div class="hero-reference-copy reveal">
+            <p class="eyebrow">Canadian healthcare administrative execution infrastructure</p>
+            <h1>Canadian healthcare is drowning in paperwork.</h1>
+            <h2>Align eCare finishes the work the visit creates.</h2>
+            <p class="lead">
+              Scribes document the appointment. Align eCare prepares, verifies,
+              routes, stages, audits, and completes the administrative work around it,
+              with physician approval at every clinical step.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#pilot-form">Request Early Access</a>
+              <a class="btn btn-secondary" href="#transformation">See Workflow Simulation</a>
             </div>
-            <div class="hero-callout reveal" data-delay="140">
-              <h3>Operational readiness before each visit</h3>
-              <p>
-                Align visit prep, form readiness, and reviewable outputs before the
-                physician reaches the next task.
-              </p>
+            <div class="trust-strip" aria-label="Platform trust indicators">
+              <span><strong>Built in</strong> New Brunswick</span>
+              <span><strong>Canadian Data</strong> Residency</span>
+              <span><strong>PIPEDA-</strong>Aligned</span>
+              <span><strong>FHIR-</strong>Grounded</span>
             </div>
+          </div>
+          <div class="hero-stat-row reveal" data-delay="120">
+            <article class="hero-metric-card">
+              <span class="metric-icon">◷</span>
+              <strong>3+</strong>
+              <p><b>Hours Returned Daily</b><br />per physician</p>
+            </article>
+            <article class="hero-metric-card">
+              <span class="metric-icon">↓</span>
+              <strong>92%</strong>
+              <p><b>Reduction Target</b><br />Pharmacy Fax-Backs</p>
+            </article>
+            <article class="hero-metric-card">
+              <span class="metric-icon">☾</span>
+              <strong>Zero</strong>
+              <p><b>Pajama-Time</b><br />Charting</p>
+            </article>
+            <article class="hero-metric-card">
+              <span class="metric-icon">✦</span>
+              <strong>100%</strong>
+              <p><b>Canadian Data</b><br />Residency</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section trust">
+      <section class="section trust" id="problem">
         <div class="container">
           <div class="section-head reveal">
             <p class="eyebrow">Trusted value proposition</p>
@@ -115,7 +148,7 @@
         </div>
       </section>
 
-      <section class="section features">
+      <section class="section features" id="solution">
         <div class="container">
           <div class="section-head reveal">
             <p class="eyebrow">Platform capabilities</p>
@@ -227,6 +260,29 @@
         </div>
       </section>
 
+      <section class="section pajama-section" id="pajama-time">
+        <div class="container pajama-card reveal">
+          <div class="pajama-art" role="img" aria-label="Doctor in pajama pants and slippers representing eliminated after-hours charting"></div>
+          <div class="pajama-content">
+            <p class="eyebrow pajama-eyebrow">Pajama Time</p>
+            <h2>Eliminating Pajama Time</h2>
+            <p>
+              After-hours charting and unpaid administrative work steal time from what matters most.
+              Align eCare gives that time back by handling the administrative work around the visit.
+            </p>
+            <div class="pajama-benefits" aria-label="Pajama time benefits">
+              <span>No more late nights</span>
+              <span>Documentation prepared for review</span>
+              <span>More time for life and care</span>
+            </div>
+            <div class="pajama-proof">
+              <strong>Align eCare handles the admin. You focus on what matters.</strong>
+              <span>Your time. Your life. Your why.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section metrics" id="capacity">
         <div class="container">
           <div class="section-head reveal">
@@ -285,7 +341,7 @@
         </div>
       </section>
 
-      <section class="section why">
+      <section class="section why" id="trust">
         <div class="container">
           <div class="section-head reveal">
             <p class="eyebrow">Why Align eCare</p>
@@ -348,7 +404,7 @@
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="about">
       <div class="container footer-wrap">
         <img src="assets/align-ecare-logo.svg" alt="Align eCare" />
         <p>Align eCare supports physicians and clinics in reducing administrative drag while preserving clinical control.</p>
